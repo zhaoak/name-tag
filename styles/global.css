@@ -28,8 +28,26 @@ footer {
     position: sticky;
     bottom: 0;
     padding: 7px 20px;
-    font-size: .8em;
+    font-size: 0.8em;
     display: flex;
     justify-content: flex-end;
     background-color: var(--footer-background);
+}
+
+.outputCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(252, 252, 228);
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-right: 25%;
+    border: 2px solid lightgray;
+}
+
+.outputCardTopGradient {
+    padding-bottom: 15px;
+    background-image: linear-gradient(to bottom, brown, rgb(252, 252, 228));
+    align-self: stretch;
 }

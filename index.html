@@ -23,10 +23,37 @@
         </header>
 
         <main>
-            <label
-                >Name:
-                <input id="name" />
+            <label>
+                Name:
+                <input id="name" /> </label
+            ><br />
+            <label>
+                Title:
+                <input id="title" /> </label
+            ><br />
+            <label>
+                Phone Number:
+                <input id="phoneNum" /> </label
+            ><br />
+            <label>
+                Class:
+                <select id="class">
+                    <option disabled selected>Choose your class...</option>
+                    <option>Warrior</option>
+                    <option>Mage</option>
+                    <option>Thief</option>
+                </select>
             </label>
+            <br />
+
+            <!-- card, displayed below entry fields -->
+            <div class="outputCard">
+                <div class="outputCardTopGradient"><br /></div>
+                <h1 id="nameOnCard">(Name)</h1>
+                <h3 id="titleOnCard">(Title)</h3>
+                <h2 id="phoneNumOnCard">(Phone Number)</h2>
+                <h5 id="classOnCard">(Class)</h5>
+            </div>
         </main>
 
         <footer>&copy;2022 Software Developer</footer>
